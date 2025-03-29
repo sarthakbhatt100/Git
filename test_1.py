@@ -86,3 +86,14 @@ if you have created a pull request in one branch and add more commits to it it w
 - if feature 1 is good but feature 2 has problem, you cant selectively merge feature 1 and not do merge for feature 2. 
 - more merge conflicts .for eg -if someone made changes seperately in feature 2 and already commited it to main. but now if you will commit your branch, you will have prob resolving because your branch has both feature 1 and feature 2
 
+
+#Git conflicts
+
+This is a common issue when someone else (or even you, from another machine) has pushed changes to the remote branch after you last pulled or cloned it.
+
+Why This Happens
+The remote branch has new commits that your local branch does not have.
+Git requires you to first synchronize your local branch with the remote branch before pushing your changes.
+
+#hard push - that my current push overwrites the branch in the github
+git push -f
