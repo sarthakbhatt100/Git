@@ -72,6 +72,8 @@ git checkout -b branchname - to create a new branch
 
 git checkout branchname - to switch to branch
 
+- new branch is created out of main. make sure main is the latest version by doing git pull
+
 
 #git pull request
 
@@ -97,3 +99,6 @@ Git requires you to first synchronize your local branch with the remote branch b
 
 #hard push - that my current push overwrites the branch in the github
 git push -f
+
+#creating conflit
+#more conflicts with nothing in the word 
