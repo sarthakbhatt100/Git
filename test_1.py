@@ -57,3 +57,19 @@ git remote -v
 git push origin main - origin is where you are pulling and main is where brnach you want to push
 
 
+# Git Fork vs cloning
+
+git fork means - creating a copy of a repo to your github - used to do it on github. adv it retains the link from the orginal repo (Called upstream) and you can pull new changes
+
+adding git upstream as git remote add upstream url
+
+git clone - means - copying a repo from github to your local machine - used to clone a repo on your local machine. adv it doesn't retain the link from the orginal repo and you have to pull new changes manually
+
+# Git Branching'
+git branch - to see all branches
+
+git checkout -b branchname - to create a new branch
+
+git checkout branchname - to switch to branch
+
+
