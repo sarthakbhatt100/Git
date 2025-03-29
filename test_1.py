@@ -75,5 +75,14 @@ git checkout branchname - to switch to branch
 
 #git pull request
 
-if you have created a pull request in one branch and add more commits to it it will be added in the same commit
+if you have created a pull request in one branch and add more commits to it it will be added in the same commit 
+
+#best practices
+
+- a new branch for each feature
+- if you add more features in the same branch then the commits would be added to the same pull request
+-lets say you added feature 1 and feature 2 in the same branch and did a pull request. problems -
+- difficult to review two different feature
+- if feature 1 is good but feature 2 has problem, you cant selectively merge feature 1 and not do merge for feature 2. 
+- more merge conflicts .for eg -if someone made changes seperately in feature 2 and already commited it to main. but now if you will commit your branch, you will have prob resolving because your branch has both feature 1 and feature 2
 
