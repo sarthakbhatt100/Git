@@ -73,6 +73,7 @@ git checkout -b branchname - to create a new branch
 git checkout branchname - to switch to branch
 
 
-new changes
+#git pull request
 
+if you have created a pull request in one branch and add more commits to it it will be added in the same commit
 
