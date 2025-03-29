@@ -101,4 +101,12 @@ Git requires you to first synchronize your local branch with the remote branch b
 git push -f
 
 #creating conflit
+
+git checkout feature1
+git add .
+git commit -m "feature 1"
+
+git checkout main
+
+#creating conflit
 #more conflicts with nothing in the word 
